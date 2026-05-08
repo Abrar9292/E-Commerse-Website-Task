@@ -1,82 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><h1>Day- One...... E-Commerse Website</h1></title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ShopEasy - E-Commerce Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-    <!--Header -->
+
+    <!-- HEADER -->
 
     <header>
-         <h1>E-Commerce Website</h1> <!-- h1, h2.... h6 Is a Define a Text Size  -->
-         <p> Explore Product Line Greocery , Electronics , Fashion And More </p> <!-- <P> P is a Paragraph And <> this Is opening Tag </> This is Close Tag -->
+
+        <!-- LOGO SECTION -->
+
+        <div class="logo">
+
+            <img src="logo.jpg" alt="Logo">
+
+            <h1>ShopEasy  - E-Commerce Website</h1>
+
+        </div>
+
+
+        <!-- HEADER TEXT -->
+
+        <div class="header-text">
+
+            <p>
+                Explore Grocery, Electronics, Fashion And More
+            </p>
+
+        </div>
+
     </header>
 
 
-    <!-- Menu Bar / Navigation Bar -->
 
-     <nav>
-        <a href="#">Home</a>    <!-- <a Is a Anchor Tag and href is a Hyper text Refrende -->
-        <a href="#">Shop </a>
-        <a href="#">Categories</a>
-     </nav>
+    <!-- NAVBAR -->
 
 
-     <!-- Main Content -->
+    <nav>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#offers">Offers</a>
+            <a href="#contact">Contact</a>
+        </div>
 
-      <main>
-        <!-- Hero section as well as Home page / Main Page  -->
 
-         <section> <!-- Section Is Used For Clean And Organized To seen Website or page -->
+        <!-- LOGIN & REGISTER BUTTON -->
 
-         </section>
+        <div class="auth-buttons">
 
-         <!-- PRODUCTS SECTION -->
-          <main>
+            <button class="login-btn">
+                Login
+            </button>
 
-            <h2>Featured Products</h2>
-            
-            <!-- Product 1 -->
-             <section>
+            <button class="register-btn">
+                Register
+            </button>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h2>
+                Upgrade Your Lifestyle
+            </h2>
+
+            <p>
+                Best Deals On Electronics & Fashion
+            </p>
+
+            <button>
+                Shop Now
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+        <h2 class="product-title">
+            Featured Products
+        </h2>
+
+
+        <!-- PRODUCTS -->
+
+        <section class="products" id="products">
+
+
+            <!-- PRODUCT 1 -->
+
+            <div class="card">
+
+                <img src="phone.jpg"
+                     alt="Smartphone">
+
                 <h3>Smartphone</h3>
-                <p>Latest Android smartphone with great features.</p>
-                <p><b>Price: </b> ₹15,999</p>
-                <button>Add to Cart</button> 
-             </section>
-             <hr>
-             
-             <!-- Product 2 -->
-              <section>
-                <h3>Laptop</h3>
-                <p>High performance laptop for work and gaming.</p>
-                <p><b>Price: </b> ₹55,999</p>
-                <button>Add to Cart</button>
-            </section>
-            <hr>
-            
-            <!-- Product 3 -->
-             <section>
-                <h3>Headphones</h3>
-                <p>Wireless noise-cancelling headphones.</p>
-                <p><b>Price: </b> ₹2,499</p>
-                <button>Add to Cart</button>
-            </section>
-            
-            <!-- Media Section -->
 
-             <section>
-                <h2>Sample Images</h2>
-                <img src="images.jpg" alt="Description" width="400"> </img>
-            </section>
-        </main>
-        
-        <!-- Footer -->
-         <footer>
-            <p> 2026 My Website </p>
-        </footer>
+                <p>
+                    Latest Android smartphone with powerful camera.
+                </p>
+
+                <h4>₹15,999</h4>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+
+
+            <!-- PRODUCT 2 -->
+
+            <div class="card">
+
+                <img src="laptop.jpg"
+                     alt="Laptop">
+
+                <h3>Laptop</h3>
+
+                <p>
+                    High performance laptop for gaming & work.
+                </p>
+
+                <h4>₹55,999</h4>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+
+
+            <!-- PRODUCT 3 -->
+
+            <div class="card">
+
+                <img src="headphones.jpg"
+                     alt="Headphones">
+
+                <h3>Headphones</h3>
+
+                <p>
+                    Wireless noise cancelling headphones.
+                </p>
+
+                <h4>₹2,499</h4>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- OFFER SECTION -->
+
+        <section class="offer-section" id="offers">
+
+            <h2>
+                🎁 Gift By Shopping
+            </h2>
+
+            <p>
+                Shop Above ₹5,000 And Get Free Gifts & Coupons
+            </p>
+
+        </section>
+
+
+
+        <!-- CONTACT SECTION -->
+
+        <section class="contact-section" id="contact">
+
+            <h2>Contact Us</h2>
+
+            <p>📞 +91 9876543210</p>
+
+            <p>📧 shopeasy@gmail.com</p>
+
+            <p>📍 Solapur, Maharashtra</p>
+
+        </section>
+
     </main>
 
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 ShopEasy | All Rights Reserved
+        </p>
+
+    </footer>
+
 </body>
+
 </html>
